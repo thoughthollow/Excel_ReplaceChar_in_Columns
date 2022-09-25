@@ -1,3 +1,3 @@
-# Excel_ReplaceChar_in_Columns
+# Excel VBA Scripts
 
-Quick code to replace a character in strings across columns.
+This Repo houses quick Excel VBA Scripts for cleaning data, quick copying, record keeping etc.
