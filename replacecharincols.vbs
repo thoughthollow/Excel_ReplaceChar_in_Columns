@@ -6,8 +6,9 @@ Sub GoToLastColumnofSpreadsheet()
     finalColumn = ActiveSheet.Cells.Find("*", SearchOrder:=xlByColumns, SearchDirection:=xlPrevious).Column
     
     For i = 1 To finalColumn
-    
-       Sheet1.Cells(1, i).Value = Replace(Sheet1.Cells(1, i).Value, "@", "_")
+        
+        'Replace the characters as needed
+        Sheet1.Cells(1, i).Value = Replace(Sheet1.Cells(1, i).Value, " ", "_") 
     
     Next i
 
